@@ -13,7 +13,6 @@ function! JumpToFile()
 
   if has_key(data['sids'], uid)
     let uid = data['sids'][uid]
-    " echo "Got sid for sid"
   endif
 
 
